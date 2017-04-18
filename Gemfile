@@ -16,6 +16,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'jwt' #encoding and decoding of HMACSHA256 tokens
 gem 'simple_command'
 
+gem 'carrierwave', '~> 0.11.2'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
