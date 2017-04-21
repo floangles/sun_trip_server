@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
     	post 'authenticate', to: 'authentication#authenticate'
     	post 'register', to: 'authentication#register'
-    	resources :trips, only: [:index]
+    	resources :trips, only: [:index, :create]
     end
   end
 

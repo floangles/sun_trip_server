@@ -6,4 +6,8 @@ class Api::V1::TripsController < ApplicationController
 		@trips = Trip.where(group: current_user.groups.ids)
 		render json: @trips.to_json
 	end
+
+	def create
+
+	end
 end
